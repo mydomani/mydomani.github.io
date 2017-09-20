@@ -1,0 +1,424 @@
+#main{
+    width: 1200px;
+    margin: auto;
+    background-image: url("../images/bg-pattern.gif");
+    z-index: 999;
+    background-attachment:fixed;
+}
+#header{
+    width: 1200px;
+    height: 50px;
+    background-color: gray;
+    position: fixed;/*让它充满 */
+    opacity: 0.5;/* 透明度*/
+    line-height: 50px;
+    font-size: 1.5em;
+    overflow: hidden;
+    font-family:serif;
+    font-weight: bold;
+    color: #ffffff;
+    z-index: 1;
+}
+#banner{
+    width: 1200px;
+    height: 590px;
+    background-size: 100%;
+    overflow: hidden;
+}
+#myimg{
+    width: 3610px;
+    height: 590px;
+    /*animation:imgMove 5s infinite linear;*/
+}
+.img{
+    width: 1200px;
+    height: 590px;
+    display: inline-block;
+    background-size: 100%;
+    z-index: 999;
+
+}
+/*@keyframes imgMove{*/
+    /*from{*/
+        /*margin-left: 0px;*/
+    /*}*/
+    /*to{*/
+        /*margin-left: -1200px;*/
+    /*}*/
+/*}*/
+.ds-text-section h2 {
+    text-align: center;
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    line-height: .875em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.ds-text-section p {
+    font-family: omnes-pro,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 660px;
+    text-align: center;
+}
+#top{
+    width: 150px;
+    height: 15px;
+    background-image: url("../images/squiggle.gif");
+    margin-left: 525px;
+    background-size: 100%;
+}
+#gridwrap{
+    width: 1200px;
+    height: 1000px;
+    position: relative;
+}
+#buttom_txt{
+    width:1200px;
+    height:333px;
+    background-image: url("../images/bridge.jpg");
+    background-size: 100%;
+}
+#footer{
+    width:1000px;
+    height:250px;
+    background-color: #09090e;
+    position: absolute;
+}
+#footer-inner4{
+     padding-left: 140px;
+     padding-top: 130px;
+ }
+.foot{
+     width: auto;
+     height: 250px;
+     float: left;
+    color: #e9e9e9;
+    padding-top: 50px;
+ }
+.footer h3{
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.small{
+    font-size: 14px;
+    line-height: 24px;
+    font-style: inherit;
+    /*font-family: futura-pt,sans-serif;*/
+}
+.label{
+    font-size: 14px;
+    line-height: 27px;
+    color: #e9e9e9;
+    display: inline-block;
+}
+#footer-inner1 a:link{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: futura-pt,sans-serif;
+    font-size: 14px;
+}
+#footer-inner1 a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer-inner1 a:hover{
+    text-decoration: none;
+    color: #20faff;
+}
+#footer-inner2 a:link{
+     text-decoration: none;
+     color: #ffffff;
+    font-family: futura-pt,sans-serif;
+    font-size: 14px;
+ }
+#footer-inner2 a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer-inner2 a:hover{
+    text-decoration: none;
+    color: #20faff;
+}
+#footer-inner3 a:link{
+    text-decoration: underline;
+    color: #ffffff;
+    font-family: futura-pt,sans-serif;
+    font-size: 14px;
+}
+#footer-inner3 a:visited{
+    text-decoration: underline;
+    color: #ffffff;
+}
+#footer-inner3 a:hover{
+    text-decoration: underline;
+    color: #20faff;
+}
+#footer-inner4 a:link{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: futura-pt,sans-serif;
+    font-size: 20px;
+}
+#footer-inner4 a:visited{
+    text-decoration: none;
+    color: #ffffff;
+}
+#footer-inner4 a:hover{
+    text-decoration: none;
+    color: #20faff;
+}
+.thick-label{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 700;
+}
+.gridItem{
+    position: absolute;
+    overflow: hidden;
+    /*transition:all 2s;*/
+    cursor: pointer;
+}
+.gridItem:hover{
+    transform:scale(1.05,1.05);}
+
+.ds-text-body h6{
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-size: .75em;
+    line-height: 1.1666666666666667em;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    margin-left: 20px;
+}
+.ds-text-body h5{
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    font-size: 1.625em;
+    line-height: .9230769230769231em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.ds-text-body h4{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 40px;
+}
+.subtitle{
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: .9375em;
+    line-height: 1em;
+    margin-left: 20px;
+    display: block;
+}
+.out1{
+    width: 600px;
+    height: 350px;
+    overflow: hidden;
+    position: absolute;
+}
+.out2{
+    width: 300px;
+    height: 290px;
+    left:600px;
+    top:0px;
+    overflow: hidden;
+    position: absolute;
+}
+.out3{
+    width: 300px;
+    height: 350px;
+    top:0px;
+    left: 900px;
+    overflow: hidden;
+    position: absolute;
+}
+.out5{
+    width: 300px;
+    height: 350px;
+    top:350px;
+    left: 300px;
+    overflow: hidden;
+    position: absolute;
+}
+.out6{
+    width: 300px;
+    height: 350px;
+    top: 290px;
+    left: 600px;
+    overflow: hidden;
+    position: absolute;
+}
+.out7{
+    width: 300px;
+    height: 350px;
+    top:350px;
+    left: 900px;
+    overflow: hidden;
+    position: absolute;
+}
+.out8{
+    width: 300px;
+    height: 300px;
+    top: 700px;
+    left: 300px;
+    overflow: hidden;
+    position: absolute;
+}
+.out9{
+    width: 300px;
+    height: 360px;
+    top: 640px;
+    left: 600px;
+    overflow: hidden;
+    position: absolute;
+}
+.out10{
+    width: 300px;
+    height: 300px;
+    top: 700px;
+    left: 900px;
+    overflow: hidden;
+    position: absolute;
+}
+#inner1{
+    width: 600px;
+    height: 350px;
+    top:0px;
+    left:0px;
+    background-image: url("../images/work-thumb-landscape.jpg");
+    background-size: 100%;
+}
+#inner2{
+    width: 300px;
+    height: 290px;
+    background-image: url("../images/work-thumb.jpg");
+    background-size: 100%;
+}
+#inner3{
+    width: 300px;
+    height: 350px;
+    background-color: #6A39D6;
+    background-size: 100%;
+}
+#inner4{
+    width: 260px;
+    height: 450px;
+    top: 380px;
+    margin-top: 20px;
+    BACKGROUND-COLOR: WHITE;
+    margin-left: 20px;
+    position: absolute;
+    box-shadow: 10px 10px 5px #888888;
+}
+#inner5{
+    width: 300px;
+    height: 350px;
+    background-image: url("../images/grid05.jpg");
+    background-size: 100%;
+}
+#inner6{
+    width: 300px;
+    height: 350px;
+    background-image: url("../images/THUMB_3.jpg");
+    BACKGROUND-SIZE: 100%;
+}
+#inner7{
+    width: 300px;
+    height: 350px;
+    background-image: url("../images/grid02.jpg");
+    background-size: 100%;
+}
+#inner8{
+    width: 300px;
+    height: 300px;
+    background-image: url("../images/thumbnail.jpg");
+    background-size: 100%;
+}
+#inner9{
+    width: 300px;
+    height: 360px;
+    background-color: #6A39D6;
+    background-size: 100%;
+    position: absolute;
+}
+#inner10{
+    width: 300px;
+    height: 300px;
+    background-image:  url("../images/grid07.jpg");
+    background-size: 100%;
+}
+span{
+    position: absolute;
+    background-color: black;
+    font-family: KaiTi;
+    color: #fcfaff;
+    text-align: center;
+    line-height: 50px;
+    opacity:0.8;
+    /*z-index:3;*/
+    width: 80%;
+    height: 50px;
+    bottom: 0px;
+    left: 20%;
+    display: none;
+
+}
+.gridItem:hover span{
+    display: block;
+}
+.gridItem:hover .iadd{
+    display: none;
+}
+.otheradd{
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+}
+.iother{
+    color: #4169e1;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-style: normal;
+}
+/*.gridItem:hover.iother{*/
+    /*transform: rotate(30deg);*/
+    /*-ms-transform: rotate(30deg);*/
+    /*-webkit-transform: rotate(30deg);*/
+/*}*/
+.add{
+    position: absolute;
+    z-index:2;
+    bottom:0px;
+}
+.iadd,.isub{
+    color: white;
+    font-size: 2em;
+    font-weight: normal;
+    font-style: normal;
+}
+.sub{
+    position: absolute;
+    background-color: black;
+    left: 0px;
+    width: 20%;
+    height: 50px;
+    text-align: left;
+}
+
