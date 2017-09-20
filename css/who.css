@@ -1,0 +1,392 @@
+#main1{
+    width: 1200px;
+    margin: auto;
+    /*position: relative;*/
+    background-image: url("../images/who-we-are-bg.jpg");
+    z-index: 999;
+    background-attachment:fixed;
+}
+/*头部*/
+#masthead{
+	top:0;
+	width: 1200px;
+    height: 50px;
+    background-color: gray;
+    position: fixed;/*让它充满 */
+    opacity: 0.5;/* 透明度*/
+    line-height: 50px;
+    font-size: 1.5em;
+    overflow: hidden;
+    font-family:serif;
+    font-weight: bold;
+    z-index: 2;
+}
+.title
+{
+	position:absolute;
+	left:90px;
+	color:black;
+}
+/*主体内容*/
+#content{
+    width: 1200px;
+    position: relative;
+    margin: auto;
+}
+#content1{
+    width: 1200px;
+    position: relative;
+    top: 10px;
+}
+.about-icon-container{
+    text-align: center;
+    margin: 10px 0;
+}
+.about-icon-1{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background: url("../images/boiling_pot.gif") no-repeat top left;
+    background-size: contain;
+}
+
+.text-container{
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+.text-container h4{
+    margin-top: 0;
+    line-height: 24px;
+}
+.about-text-section h4{
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: futura-pt,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h4{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+#content2{
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    margin-top: 60px;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+#content3{
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    margin-top: 380px;
+}
+.about-icon-2{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background: url("../images/leadership.gif") no-repeat top left;
+    background-size: contain;
+}
+#content4{
+    width: 1200px;
+    margin: auto;
+    position: absolute;
+    margin-top: 680px;
+}
+.person{
+    position: absolute;
+    overflow: hidden;
+    cursor: pointer;
+}
+#person1{
+    width: 400px;
+    height: 400px;
+    left: 400px;
+    top: 0px;
+    box-shadow: 20px 20px 10px #888888;
+}
+#person2{
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 200px;
+    box-shadow: 20px 20px 10px #888888;
+}
+#person3{
+    width: 400px;
+    height: 400px;
+    left: 800px;
+    top: 350px;
+    box-shadow: 20px 20px 10px #888888;
+}
+#person4{
+    width: 400px;
+    height: 400px;
+    left: 400px;
+    top: 600px;
+    box-shadow: 20px 20px 10px #888888;
+}
+#instr1{
+    width: 400px;
+    height: 350px;
+    left: 800px;
+    top: 0px;
+}
+#instr2{
+    width: 400px;
+    height: 400px;
+    left: 0px;
+    top: 600px;
+}
+#instr3{
+    width: 400px;
+    height: 400px;
+    left: 800px;
+    top: 750px;
+}
+#instr4{
+    width: 400px;
+    height: 400px;
+    left: 400px;
+    top: 1000px;
+}
+.text-person{
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 600px;
+    max-width: 100%;
+    margin: auto;
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+}
+#content5{
+    width: 1200px;
+    margin: auto;
+    position: absolute;
+    margin-top: 2100px;
+}
+.about-icon-3{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background: url("../images/bicycle.gif") no-repeat top left;
+    background-size: contain;
+}
+#content6{
+    width: 1200px;
+    margin: auto;
+    position: absolute;
+    margin-top: 2350px;
+}
+#content7{
+    width: 1200px;
+    margin: auto;
+    position: absolute;
+    margin-top: 2900px;
+}
+.about-icon-4{
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    background: url("../images/ideas.gif") no-repeat top left;
+    background-size: contain;
+}
+#content8{
+    width: 900px;
+    height: 300px;
+    position: absolute;
+    margin-top: 3150px;
+    margin-left: 150px;
+}
+.bottom{
+    width: 300px;
+    height: 300px;
+    float: left;
+    background-size: 100%;
+}
+/*footer*/
+
+#footer
+{
+    position: absolute;
+    margin-top: 3600px;
+    /*width: 950px;*/
+	width:1160px;
+    height:250px;
+    background:black;
+    z-index:1;
+}
+     #footer div
+     {
+       position:absolute;
+       color:white;
+     }
+     #footer1
+     {
+       top:70px;
+       left:90px;
+       font-size:22px;
+       font-weight:bold;
+       letter-spacing:10px;
+     }
+	 footer1:hover
+	 {
+		 color:#0000C6;
+	 }
+      #footer2
+      {
+       top:110px;
+       left:88px;
+       width:124px;
+       height:20px;
+       font-size:22px;
+       font-weight:bold;
+       letter-spacing:10px;
+       }
+       #footer2 div
+       {
+        width:30px;
+        height:28px;
+        background-image: url("../images/icon.gif");
+        background-size: 120px 28px;
+        background-repeat:no-repeat;
+       }
+       #icon1
+       {
+         left:0px;
+         background-size: 100%;
+         background-position:0%;
+       }
+       #icon2
+       {
+         left:31px;
+         background-position:31%;
+       }
+       #icon3
+       {
+         left:62px;
+         background-position:62%;
+       }
+      #icon4
+      {
+         left:93px;
+         background-position:93%;
+      }
+      #footer3
+      {
+         top:182px;
+         left:88px;
+         width:230px;
+         height:20px;
+         font-size:14px;
+         letter-spacing:1px;
+         text-align:left;
+      }
+      #footer4
+      {
+         top:53px;
+         left:340px;
+         font-size:14px;
+         font-weight:bold;
+         text-align:left;
+      }
+      #footer4 p
+      {
+        font-size:20px;
+      }
+      pre
+      {
+          font-size:11px;
+          line-height:18px;
+      }
+      #View
+      {
+        top:130px;
+        font-size:15px;
+        text-decoration:underline;
+      }
+      #footer5
+      {
+        top:53px;
+        left:640px;
+        width:330px;
+        height:190px;
+        font-size:14px;
+		line-height:23px;
+        text-align:left;
+      }
+      #footerTitle
+      {
+          font-size:20px;
+      }
+      #content1
+      {
+        top:60px;
+      }
+      #content2
+      {
+        top:61px;
+      }
+      #content3
+      {
+        top:62px;
+      }
+      #content4
+      {
+        top:63px;
+       }
+      .href{
+        text-decoration:underline;
+         line-height:0px;
+      }
+	  .href:hover
+	  {
+		color:#0000C6;
+	  }
+      #footerSign
+      {
+          top:110px;
+          left:1100px;
+          width: 20px;
+          height:20px;
+      }
+      #footerSign1
+      {
+          top:0px;
+          left:6px;
+          width: 8px;
+          height:8px;
+          border:2px solid white;
+          border-left:0;
+          border-bottom:0;
+          transform:rotate(-45deg);
+      }
+      #footerSign2
+      {
+          top:0px;
+          left:0px;
+          width:10px;
+          height:12px;
+          border:2px solid white;
+          border-left:0;
+          border-bottom:0;
+          border-top:0;
+      }
+	  a
+	  {  
+       text-decoration:none;	  
+	  }

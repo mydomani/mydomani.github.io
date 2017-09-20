@@ -1,0 +1,266 @@
+#main{
+    width: 1200px;
+    margin: auto;
+    background-image:url("../images/bg-pattern.gif");
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+#header{
+    width: 1200px;
+    height: 50px;
+    background-color: silver;
+    position: fixed;
+    opacity: 0.5;
+    z-index: 100;
+}
+#btn_0{
+    height: 50px;
+    border: none;
+    background-color: silver;
+}
+#btn_1{
+    height: 50px;
+    border: none;
+    background-color: silver;
+}
+#btn_2{
+    height: 50px;
+    border: none;
+    background-color: silver;
+}
+#btn_3{
+    height: 50px;
+    border: none;
+    background-color: silver;
+}
+#btn_4{
+    height: 50px;
+    border: none;
+    background-color: silver;
+}
+#banner{
+    width: 1200px;
+    height: 590px;
+    border: 1px salmon;
+    overflow: hidden;
+}
+#top_text{
+    width: 1000px;
+    height: 320px;
+    position: relative;
+    top: -30px;
+    background-color: white;
+    margin: auto;
+
+}
+#top_text1{
+    width: 700px;
+    height: 400px;
+    top:0px;
+    left: 0px;
+    text-align: left;
+}
+.topte{
+    font-size:10px;
+
+}
+#top_text2{
+    width: 200px;
+    height: 400px;
+    top:-360px;
+    left: 800px;
+    position: relative;
+    text-align: right;
+}
+#top_img{
+    width: 1000px;
+    margin: auto;
+}
+#ppp{
+    width: 500px;
+    height: 50px;
+    top: -100px;
+    left: 100px;
+    position: relative;
+    background-color: white;
+    Font-size:11px;
+}
+#middle_text{
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    top: -120px;
+    position: relative;
+    background-color: white;
+}
+#middle_text1{
+    width: 700px;
+    height: 150px;
+    top:50px;
+    left: 0px;
+    text-align: left;
+    Font-size:10px;
+
+}
+#middle_text2{
+    width: 300px;
+    height: 150px;
+    top:-150px;
+    left: 700px;
+    position: relative;
+    text-align: right;
+    Font-size:10px;
+}
+#middle_img{
+    width: 1000px;
+    margin: auto;
+    top:-70px;
+    position: relative;
+}
+#buttom_img{
+    width: 800px;
+    left: 250px;
+    position: relative;
+
+}
+#buttom_text{
+    width: 400px;
+    height: 100px;
+    position: relative;
+    left: -50px;
+    top: -100px;
+    position: relative;
+    background-color: white;
+}
+#buttom_text1{
+    width: 400px;
+    height: 100px;
+    Font-size:15px;
+
+}
+#footer{
+    width: 1340PX;
+    height: 254PX;
+    position: relative;
+
+}
+
+.footer-1{
+    width: 70px;
+    height: 250px;
+    top:0px;
+    left: 0px;
+    background-color: #181719;
+    color: #fff;
+    position: absolute;
+}
+.footer-2{
+    width: 250px;
+    height: 250px;
+    top:0px;
+    left: 70px;
+    background-color: #181719;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+}
+.footer-2-1{
+    margin-top: 40px;
+    margin-left: -60px;
+}
+.footer-2-1 img{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.footer-2-2{
+    margin-top: 60px;
+    font-size: 12px;
+}
+.footer-2-2-f{
+    margin-top: 50px;
+    margin-bottom: -40px;
+    margin-left: -60px;
+}
+.footer-3{
+    width: 200px;
+    height: 250px;
+    left: 320px;
+    top: 0px;
+    background-color: #181719;
+    color: #fff;
+    position: absolute;
+}
+.footer-3-3{
+    margin-top: 60px;
+}
+.footer-3-3 a:link{
+    text-decoration: none;
+    color:white;
+}
+.footer-3-3 a:hover{
+    color: #55f7b4;
+}
+.footer-4{
+    width: 370px;
+    height: 250px;
+    left: 520px;
+    top: 0px;
+    background-color: #181719;
+    color: #fff;
+    position: absolute;
+}
+.footer-4-4 a:link{
+    text-decoration:none;
+    color: white;
+}
+.footer-4-4 a:hover{
+    color: #55F7B4;
+}
+.label{
+    width: 20%;
+}
+.footer-a{
+    width: 80%;
+    float: right;
+    margin-top: -20px;
+}
+.footer-b{
+    width: 20%;
+}
+.footer-c{
+    width: 80%;
+    float: right;
+    margin-top: -20px;
+    margin-left: -80px;
+}
+.footer-d {
+    width: 20%;
+}
+.footer-e{
+    width: 80%;
+    float: right;
+    margin-top: -20px;
+    margin-left: -80px;
+}
+.footer-4-4{
+    margin-top: 60px;
+}
+.footer-5{
+    width: 70px;
+    height:250px;
+    left: 890px;
+    top: 0px;
+    background-color: #181719;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+}
+#img_4{
+    position: absolute;
+    bottom:50%;
+}
