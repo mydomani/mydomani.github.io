@@ -54,7 +54,8 @@ a
     top: -30px;
     background-color: white;
     margin: auto;
-
+    border:1px solid white;
+	box-shadow:20px 20px 80px grey;
 }
 #top_text1{
     width: 700px;
@@ -128,16 +129,21 @@ a
 }
 #buttom_text{
     width: 400px;
-    height: 100px;
+    height: 120px;
     position: relative;
-    left: -50px;
+    left: 10px;
     top: -100px;
     position: relative;
+	border:1px solid red;
     background-color: white;
+	border:1px solid white;
+	box-shadow:10px 10px 100px grey;
 }
 #buttom_text1{
-    width: 400px;
-    height: 100px;
+	position:absolute;
+	left:20px;
+    width: 270px;
+    height: 140px;
     Font-size:15px;
 
 }
